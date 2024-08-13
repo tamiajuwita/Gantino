@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Game</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="mainMenu" class="menu">
+            <h1>Main Menu</h1>
+            <button id="newGameButton">New Game</button>
+            <button id="loadGameButton" disabled>Load Game</button>
+            <button id="recipeButton">Recipes</button>
+            <button id="helpButton">Help</button>
+        </div>
+        
+        <div id="recipeMenu" class="menu" style="display:none;">
+            <h1>Recipes</h1>
+            <div id="recipeGrid"></div>
+            <button id="backButton">Back</button>
+        </div>
+    </div>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
